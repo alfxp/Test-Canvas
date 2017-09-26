@@ -1,0 +1,123 @@
+.file-upload {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(211, 211, 211);
+    border-radius: 12px;
+}
+
+    .file-upload:hover {
+        cursor: pointer;
+        /*        border-style: solid;
+            border-width: 1px;
+            border-color: rgb(221, 220, 220);*/
+    }
+
+    .file-upload .filethumbnail img.img {
+        width: 100%;
+        height: 100%;
+        border-radius: 12px;
+    }
+
+    .file-upload .file-input {
+        display: none;
+    }
+
+    .file-upload .drop-click-zone {
+        width: 100%;
+        height: 100%;
+        /* position: absolute; */
+        /* z-index: 2;*/
+        /*            background-color: red;*/
+    }
+
+    .file-upload .info {
+        display: none;
+    }
+
+    .file-upload .filethumbnail {
+        /*            background-color: green;*/
+        width: 100%;
+        height: 100%;
+        /* top: -100%;*/
+        position: relative;
+        /* z-index: -1;*/
+    }
+
+.qtip-file-message span {
+    display: block;
+}
+
+.file-upload .message {
+    position: relative;
+    top: -100%;
+    color: black;
+    height: 100%;
+    display: none;
+    text-align: center;
+}
+
+.file-upload:hover .message {
+    color: black;
+    display: block;
+}
+/*Bootstrap file styling*/
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+
+    .btn-file input[type=file] {
+        position: absolute;
+        top: 0;
+        right: 0;
+        min-width: 100%;
+        min-height: 100%;
+        font-size: 100px;
+        text-align: right;
+        filter: alpha(opacity=0);
+        opacity: 0;
+        outline: none;
+        background: white;
+        cursor: inherit;
+        display: block;
+    }
+
+.custom-drop-zone {
+    width: 280px;
+    height: 250px;
+    border-style: groove;
+    border-color: black;
+    background-image: url('http://localhost:51629/images/image-not-found.jpg');
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+label {
+    display: inline;
+    cursor: pointer;
+}
+
+.blue {
+    color: blue;
+}
+
+.green {
+    color: green;
+}
+
+
+.container {
+    padding-right: 0px;
+    padding-bottom: 15px;    
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}

@@ -1,0 +1,236 @@
+﻿<html>
+
+<head>
+    <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+
+    <script src="~/js/fileManager.js"></script>
+    <link href="~/js/fileManager.css" rel="stylesheet" />
+
+    <script src="~/js/ResizeCompress.js"></script>
+    <script src="~/js/JIC.min.js"></script>
+
+</head>
+
+<body>
+
+    <br />
+
+    <div class="row">
+
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+            <div class="file-upload custom-drop-zone" data-input-name="input1" data-unodz-msg="Imagem 1"></div>
+
+            <div class="row hidden" name="info">
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 small ">
+                    <i style="font-weight: bold;">Img. Origem</i> <br />
+                    <span class="glyphicon  glyphicon-file blue"></span>  <span id="SizeOinput1">-</span> <br />
+                    <span class="glyphicon  glyphicon-picture blue"></span> <span id="ResOimginput1">-</span>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 small">
+                    <i style="font-weight: bold;">Img. Web Otimizada</i><br />
+                    <span class="glyphicon  glyphicon-file green"></span><span id="SizeTimginput1">-</span><br />
+                    <span class="glyphicon  glyphicon-picture green"></span><span id="ResTimginput1">-</span>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+            <div class="file-upload custom-drop-zone" data-input-name="input2" data-unodz-msg="Imagem 2"></div>
+
+            <div class="row hidden" name="info">
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 small ">
+                    <i style="font-weight: bold;">Img. Origem</i> <br />
+                    <span class="glyphicon  glyphicon-file blue"></span>  <span id="SizeOinput2">-</span> <br />
+                    <span class="glyphicon  glyphicon-picture blue"></span> <span id="ResOimginput2">-</span>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 small">
+                    <i style="font-weight: bold;">Img. Web Otimizada</i><br />
+                    <span class="glyphicon  glyphicon-file green"></span><span id="SizeTimginput2">-</span><br />
+                    <span class="glyphicon  glyphicon-picture green"></span><span id="ResTimginput2">-</span>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+            <div class="file-upload custom-drop-zone" data-input-name="input3" data-unodz-msg="Imagem 3"></div>
+
+            <div class="row hidden" name="info">
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 small ">
+                    <i style="font-weight: bold;">Img. Origem</i> <br />
+                    <span class="glyphicon  glyphicon-file blue"></span>  <span id="SizeOinput3">-</span> <br />
+                    <span class="glyphicon  glyphicon-picture blue"></span> <span id="ResOimginput3">-</span>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 small">
+                    <i style="font-weight: bold;">Img. Web Otimizada</i><br />
+                    <span class="glyphicon  glyphicon-file green"></span><span id="SizeTimginput3">-</span><br />
+                    <span class="glyphicon  glyphicon-picture green"></span><span id="ResTimginput3">-</span>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+            <div class="file-upload custom-drop-zone" data-input-name="input4" data-unodz-msg="Imagem 4"></div>
+
+            <div class="row hidden" name="info">
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 small ">
+                    <i style="font-weight: bold;">Img. Origem</i> <br />
+                    <span class="glyphicon  glyphicon-file blue"></span>  <span id="SizeOinput4">-</span> <br />
+                    <span class="glyphicon  glyphicon-picture blue"></span> <span id="ResOimginput4">-</span>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 small">
+                    <i style="font-weight: bold;">Img. Web Otimizada</i><br />
+                    <span class="glyphicon  glyphicon-file green"></span><span id="SizeTimginput4">-</span><br />
+                    <span class="glyphicon  glyphicon-picture green"></span><span id="ResTimginput4">-</span>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+            <div class="file-upload custom-drop-zone" data-input-name="input5" data-unodz-msg="Imagem 5"></div>
+            <div class="row hidden" name="info">
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 small ">
+                    <i style="font-weight: bold;">Img. Origem</i> <br />
+                    <span class="glyphicon  glyphicon-file blue"></span>  <span id="SizeOinput5">-</span> <br />
+                    <span class="glyphicon  glyphicon-picture blue"></span> <span id="ResOimginput5">-</span>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 small">
+                    <i style="font-weight: bold;">Img. Web Otimizada</i><br />
+                    <span class="glyphicon  glyphicon-file green"></span><span id="SizeTimginput5">-</span><br />
+                    <span class="glyphicon  glyphicon-picture green"></span><span id="ResTimginput5">-</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+            <div class="file-upload custom-drop-zone" data-input-name="input6" data-unodz-msg="Imagem 6"></div>
+            <div class="row hidden" name="info">
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 small ">
+                    <i style="font-weight: bold;">Img. Origem</i> <br />
+                    <span class="glyphicon  glyphicon-file blue"></span>  <span id="SizeOinput6">-</span> <br />
+                    <span class="glyphicon  glyphicon-picture blue"></span> <span id="ResOimginput6">-</span>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 small">
+                    <i style="font-weight: bold;">Img. Web Otimizada</i><br />
+                    <span class="glyphicon  glyphicon-file green"></span><span id="SizeTimginput6">-</span><br />
+                    <span class="glyphicon  glyphicon-picture green"></span><span id="ResTimginput6">-</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+            <div class="file-upload custom-drop-zone" data-input-name="input7" data-unodz-msg="Imagem 7"></div>
+            <div class="row hidden" name="info">
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 small ">
+                    <i style="font-weight: bold;">Img. Origem</i> <br />
+                    <span class="glyphicon  glyphicon-file blue"></span>  <span id="SizeOinput7">-</span> <br />
+                    <span class="glyphicon  glyphicon-picture blue"></span> <span id="ResOimginput7">-</span>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 small">
+                    <i style="font-weight: bold;">Img. Web Otimizada</i><br />
+                    <span class="glyphicon  glyphicon-file green"></span><span id="SizeTimginput7">-</span><br />
+                    <span class="glyphicon  glyphicon-picture green"></span><span id="ResTimginput7">-</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+            <div class="file-upload custom-drop-zone" data-input-name="input8" data-unodz-msg="Imagem 8"></div>
+            <div class="row hidden" name="info">
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 small ">
+                    <i style="font-weight: bold;">Img. Origem</i> <br />
+                    <span class="glyphicon  glyphicon-file blue"></span>  <span id="SizeOinput8">-</span> <br />
+                    <span class="glyphicon  glyphicon-picture blue"></span> <span id="ResOimginput8">-</span>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 small">
+                    <i style="font-weight: bold;">Img. Web Otimizada</i><br />
+                    <span class="glyphicon  glyphicon-file green"></span><span id="SizeTimginput8">-</span><br />
+                    <span class="glyphicon  glyphicon-picture green"></span><span id="ResTimginput8">-</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+            <div class="file-upload custom-drop-zone" data-input-name="input9" data-unodz-msg="Imagem 9"></div>
+            <div class="row hidden" name="info">
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 small ">
+                    <i style="font-weight: bold;">Img. Origem</i> <br />
+                    <span class="glyphicon  glyphicon-file blue"></span>  <span id="SizeOinput9">-</span> <br />
+                    <span class="glyphicon  glyphicon-picture blue"></span> <span id="ResOimginput9">-</span>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 small">
+                    <i style="font-weight: bold;">Img. Web Otimizada</i><br />
+                    <span class="glyphicon  glyphicon-file green"></span><span id="SizeTimginput9">-</span><br />
+                    <span class="glyphicon  glyphicon-picture green"></span><span id="ResTimginput9">-</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+            <div class="file-upload custom-drop-zone" data-input-name="input10" data-unodz-msg="Imagem 10"></div>
+            <div class="row hidden" name="info">
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 small ">
+                    <i style="font-weight: bold;">Img. Origem</i> <br />
+                    <span class="glyphicon  glyphicon-file blue"></span>  <span id="SizeOinput10">-</span> <br />
+                    <span class="glyphicon  glyphicon-picture blue"></span> <span id="ResOimginput10">-</span>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 small">
+                    <i style="font-weight: bold;">Img. Web Otimizada</i><br />
+                    <span class="glyphicon  glyphicon-file green"></span><span id="SizeTimginput10">-</span><br />
+                    <span class="glyphicon  glyphicon-picture green"></span><span id="ResTimginput10">-</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+            <div class="file-upload custom-drop-zone" data-input-name="input11" data-unodz-msg="Imagem 11"></div>
+            <div class="row hidden" name="info">
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 small ">
+                    <i style="font-weight: bold;">Img. Origem</i> <br />
+                    <span class="glyphicon  glyphicon-file blue"></span>  <span id="SizeOinput11">-</span> <br />
+                    <span class="glyphicon  glyphicon-picture blue"></span> <span id="ResOimginput11">-</span>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 small">
+                    <i style="font-weight: bold;">Img. Web Otimizada</i><br />
+                    <span class="glyphicon  glyphicon-file green"></span><span id="SizeTimginput11">-</span><br />
+                    <span class="glyphicon  glyphicon-picture green"></span><span id="ResTimginput11">-</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+            <div class="file-upload custom-drop-zone" data-input-name="input12" data-unodz-msg="Imagem 12"></div>
+            <div class="row hidden" name="info">
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 small ">
+                    <i style="font-weight: bold;">Img. Origem</i> <br />
+                    <span class="glyphicon  glyphicon-file blue"></span>  <span id="SizeOinput12">-</span> <br />
+                    <span class="glyphicon  glyphicon-picture blue"></span> <span id="ResOimginput12">-</span>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 small">
+                    <i style="font-weight: bold;">Img. Web Otimizada</i><br />
+                    <span class="glyphicon  glyphicon-file green"></span><span id="SizeTimginput12">-</span><br />
+                    <span class="glyphicon  glyphicon-picture green"></span><span id="ResTimginput12">-</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <br />
+    <a class="btn btn-large btn-primary" id="btnResizeCompress">Compress</a>
+    <br /><br />
+    <a class="btn btn-large btn-primary" id="btnSendImage">SendImage</a>
+    <br />
+
+</body>
+
+</html>
