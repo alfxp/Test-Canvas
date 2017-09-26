@@ -110,8 +110,7 @@ var UnoDropZone = {
         //read file
          console.log('handleInputFiles ...');
                  
-         $('[name="info"]').each(function () {
-             console.log($(this));
+         $('[name="info"]').each(function () {             
              $(this).hide().addClass("hidden").fadeIn();
          });
 
