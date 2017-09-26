@@ -1,2 +1,2 @@
 # TestesCanvas
-Testes com o Canvas
+Test with Canvas and .net Core.
